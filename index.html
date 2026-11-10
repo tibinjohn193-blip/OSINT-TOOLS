@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A searchable educational directory of OSINT tools, installation guidance and practical examples.">
+<title>OSINT Global Master Directory</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <nav><a class="brand" href="./">OSINT<span>GLOBAL</span></a><a href="#about">About</a><a href="#directory">Directory</a><a href="#ethics">Safe use</a></nav>
+  <div class="hero-inner"><p class="eyebrow">OPEN SOURCE INTELLIGENCE • LEARNING RESOURCE</p>
+  <h1>OSINT Global<br><em>Master Directory</em></h1>
+  <p class="intro">Explore tools for domain reconnaissance, social media research, network intelligence, metadata analysis, geolocation, threat intelligence and more.</p>
+  <a class="cta" href="#directory">Explore the directory ↓</a>
+  <div class="stats"><div><strong id="toolCount">0</strong><span>catalogued tools</span></div><div><strong id="categoryCount">0</strong><span>categories</span></div><div><strong>Open</strong><span>static knowledge base</span></div></div>
+  </div>
+</header>
+<main>
+<section id="about" class="about"><p class="eyebrow">LEARN • VERIFY • DOCUMENT</p><h2>Research with context, not just commands.</h2><p>This directory is an educational starting point. Each entry includes a purpose, installation or access guidance, two example workflows, and a safety note. Tool versions, access rules, API plans and commands change; always consult the publisher's documentation before use.</p></section>
+<section id="directory" class="directory">
+<div class="section-head"><div><p class="eyebrow">THE CATALOGUE</p><h2>Explore OSINT tools</h2></div><span id="resultCount" class="result-count"></span></div>
+<div class="controls"><input id="search" type="search" placeholder="Search tools, categories, purpose…" aria-label="Search tools"><select id="category"><option value="">All categories</option></select><select id="pricing"><option value="">All pricing models</option><option>Open source</option><option>Free</option><option>Freemium</option><option>Paid</option><option>Commercial / free options</option><option>Free / paid options</option><option>Free / API paid tiers</option><option>Research archive</option><option>Authorised domain service</option></select><select id="sort"><option value="az">Name A–Z</option><option value="za">Name Z–A</option></select></div>
+<div id="cards" class="cards" aria-live="polite"></div>
+<p id="empty" class="empty" hidden>No matching tools. Try a different search or category.</p>
+</section>
+<section id="ethics" class="ethics"><p class="eyebrow">RESPONSIBLE INVESTIGATION</p><h2>Use OSINT ethically</h2><div class="ethics-grid"><article><h3>Authorisation first</h3><p>Investigate only your own assets, public-interest material, or targets covered by explicit permission and a defined scope.</p></article><article><h3>Verify independently</h3><p>A username match, DNS record, search result or metadata field is a lead—not proof. Corroborate important findings.</p></article><article><h3>Protect people and data</h3><p>Minimise personal data collection. Never use exposed credentials or attempt unauthorised access.</p></article><article><h3>Keep evidence traceable</h3><p>Record source URLs, timestamps, tool versions, collection methods, limitations and confidence levels.</p></article></div></section>
+</main>
+<footer><span>OSINT Global Master Directory</span><span>Educational resource • GitHub Pages ready</span></footer>
+<script src="app.js"></script>
+</body></html>
